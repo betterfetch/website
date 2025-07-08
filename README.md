@@ -13,7 +13,7 @@
 
 ## 🚀 Live Preview
 
-> 🖥️ Check it out here: [**betterfetch.app**](https://betterfetch.app)
+> 🖥️ Check it out here: [**betterfetch.app**](https://betterfetch.netlify.app)
 
 ---
 
