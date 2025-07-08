@@ -123,7 +123,7 @@ Found a bug or have an idea?
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/betterfetch/assets/main/screenshot.png" alt="Website Preview" width="800"/>
+  <img src="https://github.com/betterfetch/betterfetch/blob/main/img/example_image_2.png" alt="Website Preview" width="800"/>
 </p>
 
 <p align="center">
