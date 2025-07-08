@@ -13,7 +13,7 @@
 
 ## 🚀 Live Preview
 
-> 🖥️ Check it out here: [**betterfetch.app**](https://betterfetch.netlify.app)
+> 🖥️ Check it out here: [**betterfetch.app**](https://betterfetch.app)
 
 ---
 
@@ -21,12 +21,25 @@
 
 This is a modern frontend app scaffolded with [Vite](https://vitejs.dev), using:
 
-- ⚛️ **React** for components and routing
-- 🎨 **Tailwind CSS v4** for utility-first styling
-- 🌈 **DaisyUI** for beautiful UI components
-- ⚡ **pnpm** for fast and efficient package management
+- ⚛️ **React** for components and routing  
+- 🎨 **Tailwind CSS v4** for utility-first styling  
+- 🎨 **DaisyUI** for beautiful UI components  
+- ⚡ **pnpm** for fast and efficient package management  
 - 🗂️ Pages: `Home`, `About`, `Download` — all routed via React Router DOM
 
+```
+betterfetch/website/
+├── public/               # Static assets
+├── src/
+│   ├── assets/           # Logos, icons, illustrations
+│   ├── components/       # Shared UI components
+│   ├── pages/            # Route-based page components
+│   ├── App.jsx           # App entry with routing
+│   └── main.jsx          # ReactDOM root
+├── tailwind.config.js    # Tailwind v4 config
+├── index.html            # Vite HTML entry
+└── package.json          # Scripts and dependencies
+```
 
 ---
 
@@ -34,7 +47,7 @@ This is a modern frontend app scaffolded with [Vite](https://vitejs.dev), using:
 
 ### Prerequisites
 
-- Node.js ≥ 18
+- Node.js ≥ 18  
 - [pnpm](https://pnpm.io) (recommended)
 
 ### Installation
@@ -51,7 +64,68 @@ pnpm install
 pnpm dev
 ```
 
-## Build for production
-``` bash
+> 📦 To build for production:
+```bash
 pnpm build
 ```
+
+---
+
+## ✨ Features
+
+- ⚡ **Lightning fast** — built with Vite  
+- 📱 **Responsive design**
+- 🎨 **Fully themable** — powered by Tailwind and DaisyUI  
+- 🌍 **SEO-ready** — optimized meta tags  
+- 📚 **Modular code** — clean folder structure  
+
+---
+
+## 🧠 Project Philosophy
+
+This website reflects the simplicity and elegance of **betterfetch** itself: lightweight, beautiful, and functional.  
+The source code follows modern frontend best practices and aims to stay minimal yet extensible.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated!
+
+1. Fork this repo  
+2. Create a new branch: `git checkout -b feature/your-feature-name`  
+3. Commit your changes: `git commit -m "feat: your message"`  
+4. Push to the branch: `git push origin feature/your-feature-name`  
+5. Open a pull request 🚀
+
+Please follow our [contribution guidelines](CONTRIBUTING.md).
+
+---
+
+## 📜 License
+
+[MIT](LICENSE)
+
+---
+
+## 🧑‍💻 Maintainers
+
+- [@betterfetch](https://github.com/betterfetch)  
+- [@DavidBalishyan](https://github.com/DavidBalishyan)
+
+---
+
+## 💬 Feedback
+
+Found a bug or have an idea?  
+[Open an issue](https://github.com/betterfetch/website/issues/new) or start a discussion!
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/betterfetch/assets/main/screenshot.png" alt="Website Preview" width="800"/>
+</p>
+
+<p align="center">
+  <em>Clean. Fast. Open Source.</em>
+</p>
