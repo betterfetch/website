@@ -10,7 +10,7 @@ We welcome pull requests, suggestions, and ideas to improve the website for bett
 If you haven't already, fork and clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/website.git
+git clone https://github.com/betterfetch/website.git
 cd website
 pnpm install
 pnpm dev
@@ -68,9 +68,8 @@ Before submitting your pull request, make sure:
 
 ## 🧪 Development Notes
 
-- We use [Vite](https://vitejs.dev) for fast development
+- We use [Vite](https://vite.dev) for fast development
 - Styles are built with [Tailwind CSS v4](https://tailwindcss.com)
-- UI components follow [DaisyUI](https://daisyui.com/) conventions
 - Routing is handled by [React Router](https://reactrouter.com/)
 
 ---
