@@ -117,8 +117,7 @@ const Home = () => {
           transition={{ delay: 0.8, duration: 0.5 }}
         >
           <Link
-            to="/donwload"
-            target="_blank"
+            to="/download"
             rel="noopener noreferrer"
             className="relative inline-block px-8 py-3 bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-400 hover:to-teal-300 text-white font-medium rounded-xl shadow-lg transition-all duration-300 overflow-hidden"
           >
