@@ -33,11 +33,13 @@ betterfetch/website/
 ├── src/
 │   ├── assets/           # Logos, icons, illustrations
 │   ├── components/       # Shared UI components
-│   ├── pages/            # Route-based page components
-│   ├── App.jsx           # App entry with routing
-│   └── main.jsx          # ReactDOM root
-├── tailwind.config.js    # Tailwind v4 config
+│   ├── pages/            # Page components
+│   ├── App.tsx           # App entry with routing
+│   └── main.tsx          # ReactDOM root
 ├── index.html            # Vite HTML entry
+├── vite.config.ts        # Vite config file
+├── pnpm-lock.yaml        # Pnpm lockfile
+├── deno.lock             # deno lockfile
 └── package.json          # Scripts and dependencies
 ```
 
