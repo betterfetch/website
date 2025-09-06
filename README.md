@@ -21,10 +21,10 @@
 
 This is a modern frontend app scaffolded with [Vite](https://vitejs.dev), using:
 
-- ⚛️ **React** for components and routing  
-- 🎨 **Tailwind CSS v4** for utility-first styling  
-- 🎨 **DaisyUI** for beautiful UI components  
-- ⚡ **pnpm** for fast and efficient package management  
+- ⚛️ **React** for components and routing
+- 🎨 **Tailwind CSS v4** for utility-first styling
+- 🎨 **DaisyUI** for beautiful UI components
+- ⚡ **pnpm** for fast and efficient package management
 - 🗂️ Pages: `Home`, `About`, `Download` — all routed via React Router DOM
 
 ```
@@ -49,7 +49,7 @@ betterfetch/website/
 
 ### Prerequisites
 
-- Node.js ≥ 18  
+- Node.js ≥ 18
 - [pnpm](https://pnpm.io) (recommended)
 
 ### Installation
@@ -67,6 +67,7 @@ pnpm dev
 ```
 
 > 📦 To build for production:
+
 ```bash
 pnpm build
 ```
@@ -75,11 +76,11 @@ pnpm build
 
 ## ✨ Features
 
-- ⚡ **Lightning fast** — built with Vite  
+- ⚡ **Lightning fast** — built with Vite
 - 📱 **Responsive design**
-- 🎨 **Fully themable** — powered by Tailwind and DaisyUI  
-- 🌍 **SEO-ready** — optimized meta tags  
-- 📚 **Modular code** — clean folder structure  
+- 🎨 **Fully themable** — powered by Tailwind and DaisyUI
+- 🌍 **SEO-ready** — optimized meta tags
+- 📚 **Modular code** — clean folder structure
 
 ---
 
@@ -94,10 +95,10 @@ The source code follows modern frontend best practices and aims to stay minimal 
 
 Contributions are welcome and appreciated!
 
-1. Fork this repo  
-2. Create a new branch: `git checkout -b feature/your-feature-name`  
-3. Commit your changes: `git commit -m "feat: your message"`  
-4. Push to the branch: `git push origin feature/your-feature-name`  
+1. Fork this repo
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m "feat: your message"`
+4. Push to the branch: `git push origin feature/your-feature-name`
 5. Open a pull request 🚀
 
 Please follow our [contribution guidelines](CONTRIBUTING.md).
@@ -112,7 +113,7 @@ Please follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## 🧑‍💻 Maintainers
 
-- [@betterfetch](https://github.com/betterfetch)  
+- [@betterfetch](https://github.com/betterfetch)
 - [@DavidBalishyan](https://github.com/DavidBalishyan)
 
 ---
