@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Download from "./pages/Download";
-import Footer from "./components/Footer";
 import { motion } from "framer-motion";
 import PoweredByVercel from "./components/PoweredByVercel";
 
