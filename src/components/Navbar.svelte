@@ -14,8 +14,13 @@
   let mobileOpen = $state(false);
 </script>
 
-<nav class="fixed top-0 left-0 right-0 z-50 bg-zinc-950/80 backdrop-blur-lg border-b border-zinc-800">
-  <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+<nav
+  class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-5xl"
+  aria-label="Main navigation"
+>
+  <div
+    class="flex items-center justify-between px-6 h-14 rounded-3xl bg-zinc-900/40 backdrop-blur-xl border border-zinc-700/30 shadow-2xl shadow-cyan-500/[0.04] transition-all duration-300"
+  >
     <a
       href="/"
       onclick={(e) => {
@@ -23,7 +28,7 @@
         navigate('/');
         mobileOpen = false;
       }}
-      class="text-lg font-bold tracking-tight hover:text-cyan-400 transition-colors"
+      class="text-lg font-bold tracking-tight text-white hover:text-cyan-400 transition-colors"
     >
       betterfetch
     </a>
@@ -36,7 +41,9 @@
             e.preventDefault();
             navigate(link.path);
           }}
-          class="text-sm transition-colors duration-150 {currentRoute === link.path ? 'text-cyan-400' : 'text-zinc-400 hover:text-zinc-100'}"
+          class="text-sm transition-all duration-200 {currentRoute === link.path
+            ? 'text-cyan-400 font-medium'
+            : 'text-white/70 hover:text-white'}"
         >
           {link.label}
         </a>
@@ -44,9 +51,10 @@
     </div>
 
     <button
-      class="md:hidden text-zinc-400 hover:text-zinc-100 transition-colors"
+      class="md:hidden text-white/70 hover:text-white transition-colors"
       onclick={() => (mobileOpen = !mobileOpen)}
       aria-label="Toggle menu"
+      aria-expanded={mobileOpen}
     >
       {#if mobileOpen}
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -61,7 +69,9 @@
   </div>
 
   {#if mobileOpen}
-    <div class="md:hidden border-t border-zinc-800 bg-zinc-950">
+    <div
+      class="mt-2 rounded-2xl bg-zinc-900/50 backdrop-blur-xl border border-zinc-700/30 shadow-xl overflow-hidden md:hidden transition-all duration-300"
+    >
       {#each links as link}
         <a
           href="#{link.path}"
@@ -70,7 +80,9 @@
             navigate(link.path);
             mobileOpen = false;
           }}
-          class="block px-4 py-3 text-sm transition-colors duration-150 {currentRoute === link.path ? 'text-cyan-400 bg-zinc-900' : 'text-zinc-400 hover:text-zinc-100 hover:bg-zinc-900'}"
+          class="block px-6 py-3 text-sm transition-all duration-200 {currentRoute === link.path
+            ? 'text-cyan-400 bg-white/10'
+            : 'text-white/70 hover:text-white hover:bg-white/5'}"
         >
           {link.label}
         </a>
